@@ -2,9 +2,51 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid eb39bb60-e016-4310-b4a2-3b3ed9adc75b)
+	(uuid "eb39bb60-e016-4310-b4a2-3b3ed9adc75b")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 41.91 93.98)
+		(size 27.94 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a74ef4e-9b5a-4589-b5e9-440f07c05f0f")
+		(property "Sheetname" "Motor driver"
+			(at 41.91 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 41.91 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOC_controller"
+				(path "/eb39bb60-e016-4310-b4a2-3b3ed9adc75b"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
