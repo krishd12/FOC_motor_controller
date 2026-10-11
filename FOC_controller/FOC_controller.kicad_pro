@@ -616,7 +616,15 @@
     ],
     [
       "2a74ef4e-9b5a-4589-b5e9-440f07c05f0f",
-      "Motor driver"
+      "Motor driver & FET cnxns"
+    ],
+    [
+      "ed42fbd5-8438-4f21-b426-dd63e8ded1d7",
+      "MCU"
+    ],
+    [
+      "eb65c562-cf2b-4665-b7fd-648ee7421ca1",
+      "Power"
     ]
   ],
   "text_variables": {}

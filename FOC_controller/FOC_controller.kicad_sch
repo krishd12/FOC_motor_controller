@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 41.91 93.98)
+		(at 104.14 78.74)
 		(size 27.94 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21,8 +21,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2a74ef4e-9b5a-4589-b5e9-440f07c05f0f")
-		(property "Sheetname" "Motor driver"
-			(at 41.91 93.2684 0)
+		(property "Sheetname" "Motor driver & FET cnxns"
+			(at 104.14 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 41.91 137.7446 0)
+			(at 104.14 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,6 +43,90 @@
 			(project "FOC_controller"
 				(path "/eb39bb60-e016-4310-b4a2-3b3ed9adc75b"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 36.83)
+		(size 27.94 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb65c562-cf2b-4665-b7fd-648ee7421ca1")
+		(property "Sheetname" "Power"
+			(at 104.14 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 104.14 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOC_controller"
+				(path "/eb39bb60-e016-4310-b4a2-3b3ed9adc75b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 77.47)
+		(size 20.32 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed42fbd5-8438-4f21-b426-dd63e8ded1d7")
+		(property "Sheetname" "MCU"
+			(at 147.32 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 147.32 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOC_controller"
+				(path "/eb39bb60-e016-4310-b4a2-3b3ed9adc75b"
+					(page "3")
 				)
 			)
 		)
