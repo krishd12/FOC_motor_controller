@@ -6,7 +6,49 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 104.14 78.74)
+		(at 91.44 31.75)
+		(size 12.7 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "017fc954-efa5-4bc3-b030-23f96d31d5df")
+		(property "Sheetname" "Connectors"
+			(at 91.44 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 91.44 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOC_controller"
+				(path "/eb39bb60-e016-4310-b4a2-3b3ed9adc75b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 121.92)
 		(size 27.94 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +64,7 @@
 		)
 		(uuid "2a74ef4e-9b5a-4589-b5e9-440f07c05f0f")
 		(property "Sheetname" "Motor driver & FET cnxns"
-			(at 104.14 78.0284 0)
+			(at 91.44 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 104.14 122.5046 0)
+			(at 91.44 165.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +90,7 @@
 		)
 	)
 	(sheet
-		(at 104.14 36.83)
+		(at 91.44 77.47)
 		(size 27.94 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +106,7 @@
 		)
 		(uuid "eb65c562-cf2b-4665-b7fd-648ee7421ca1")
 		(property "Sheetname" "Power"
-			(at 104.14 36.1184 0)
+			(at 91.44 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 104.14 72.9746 0)
+			(at 91.44 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 147.32 77.47)
+		(at 134.62 107.95)
 		(size 20.32 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +148,7 @@
 		)
 		(uuid "ed42fbd5-8438-4f21-b426-dd63e8ded1d7")
 		(property "Sheetname" "MCU"
-			(at 147.32 76.7584 0)
+			(at 134.62 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 147.32 123.7746 0)
+			(at 134.62 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
