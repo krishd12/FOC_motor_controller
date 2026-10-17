@@ -616,7 +616,7 @@
     ],
     [
       "2a74ef4e-9b5a-4589-b5e9-440f07c05f0f",
-      "Motor driver & FET cnxns"
+      "Motor driver"
     ],
     [
       "ed42fbd5-8438-4f21-b426-dd63e8ded1d7",
@@ -627,8 +627,8 @@
       "Power"
     ],
     [
-      "017fc954-efa5-4bc3-b030-23f96d31d5df",
-      "Connectors"
+      "076e6274-d47c-488e-8cd8-20f0b6c17675",
+      "3-Phase Inverter"
     ]
   ],
   "text_variables": {}
