@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 160.02 76.2)
+		(at 180.34 86.36)
 		(size 17.78 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "076e6274-d47c-488e-8cd8-20f0b6c17675")
 		(property "Sheetname" "3-Phase Inverter"
-			(at 160.02 75.4884 0)
+			(at 180.34 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "3_phase_inverter.kicad_sch"
-			(at 160.02 105.9946 0)
+			(at 180.34 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +48,7 @@
 		)
 	)
 	(sheet
-		(at 118.11 40.64)
+		(at 138.43 50.8)
 		(size 27.94 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "2a74ef4e-9b5a-4589-b5e9-440f07c05f0f")
 		(property "Sheetname" "Motor driver"
-			(at 118.11 39.9284 0)
+			(at 138.43 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor_driver.kicad_sch"
-			(at 118.11 84.4046 0)
+			(at 138.43 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +90,7 @@
 		)
 	)
 	(sheet
-		(at 81.28 77.47)
+		(at 101.6 87.63)
 		(size 27.94 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "eb65c562-cf2b-4665-b7fd-648ee7421ca1")
 		(property "Sheetname" "Power"
-			(at 81.28 76.7584 0)
+			(at 101.6 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 81.28 113.6146 0)
+			(at 101.6 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 118.11 92.71)
+		(at 138.43 102.87)
 		(size 27.94 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +148,7 @@
 		)
 		(uuid "ed42fbd5-8438-4f21-b426-dd63e8ded1d7")
 		(property "Sheetname" "MCU"
-			(at 118.11 91.9984 0)
+			(at 138.43 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 118.11 137.7446 0)
+			(at 138.43 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
