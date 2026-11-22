@@ -7,4 +7,8 @@
   (lib (name "SMBJ48CA")(type "KiCad")(uri "${KIPRJMOD}/SMBJ48CA/SMBJ48CA.kicad_sym")(options "")(descr ""))
   (lib (name "ST_TVS")(type "KiCad")(uri "${KIPRJMOD}/SM2T3V3A_KiCad/SM2T3V3A_KiCad/ST_TVS.kicad_sym")(options "")(descr ""))
   (lib (name "TI_Isolated_ADC")(type "KiCad")(uri "${KIPRJMOD}/AMC131M03DFMR_KiCad/AMC131M03DFMR_KiCad/TI_Isolated_ADC.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8320SRTVR")(type "KiCad")(uri "${KIPRJMOD}/DRV8320SRTVR.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8320SRTVR (1)")(type "KiCad")(uri "${KIPRJMOD}/DRV8320SRTVR (1).kicad_sym")(options "")(descr ""))
+  (lib (name "STM32F405RGT7TR")(type "KiCad")(uri "${KIPRJMOD}/STM32F405RGT7TR_KiCad/STM32F405RGT7TR_KiCad/STM32F405RGT7TR.kicad_sym")(options "")(descr ""))
+  (lib (name "CSTNE8M00G550000R0")(type "KiCad")(uri "${KIPRJMOD}/CSTNE8M00G550000R0/CSTNE8M00G550000R0.kicad_sym")(options "")(descr ""))
 )

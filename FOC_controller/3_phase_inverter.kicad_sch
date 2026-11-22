@@ -2294,9 +2294,9 @@
 		)
 		(uuid "d4a690b6-049e-454d-b47a-0a516891d7b6")
 	)
-	(text "Current sense amplifier\n"
+	(text "Isolated Current sense amplifier\n"
 		(exclude_from_sim no)
-		(at 55.372 161.29 0)
+		(at 59.182 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2795,7 +2795,7 @@
 	)
 	(polyline
 		(pts
-			(xy 44.196 162.052) (xy 67.056 162.052)
+			(xy 44.196 162.052) (xy 74.676 162.052)
 		)
 		(stroke
 			(width 0)
@@ -2905,7 +2905,7 @@
 	)
 	(polyline
 		(pts
-			(xy 44.45 162.814) (xy 255.778 162.814)
+			(xy 43.18 163.195) (xy 255.778 163.195)
 		)
 		(stroke
 			(width 0)
@@ -3505,7 +3505,7 @@
 	)
 	(polyline
 		(pts
-			(xy 43.18 85.09) (xy 43.18 162.56)
+			(xy 43.18 85.09) (xy 43.18 163.195)
 		)
 		(stroke
 			(width 0)
@@ -3732,16 +3732,6 @@
 			(type default)
 		)
 		(uuid "f1895756-4874-4b2e-9fb5-f3898c507d60")
-	)
-	(polyline
-		(pts
-			(xy 43.18 162.56) (xy 44.45 162.56)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "f233ee3d-3c75-4125-bb58-26b823aee285")
 	)
 	(wire
 		(pts
@@ -4043,7 +4033,7 @@
 		)
 		(uuid "f5531ab4-1a32-40c2-a43a-f02bbc493400")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "SPI1_SCK"
 		(shape input)
 		(at 186.69 127 0)
 		(effects
@@ -4054,7 +4044,7 @@
 		)
 		(uuid "10c30f5b-e1f1-47e8-b60b-d1ebe3e31249")
 	)
-	(hierarchical_label "SPI_SYNC_RESET"
+	(hierarchical_label "CURR_SENSE_SYNC_RESET"
 		(shape input)
 		(at 186.69 121.92 0)
 		(effects
@@ -4186,7 +4176,7 @@
 		)
 		(uuid "782d2e1e-0e01-4b51-9b2f-89c4c38f56b6")
 	)
-	(hierarchical_label "SPI_DIN"
+	(hierarchical_label "SPI1_MOSI"
 		(shape input)
 		(at 186.69 129.54 0)
 		(effects
@@ -4208,7 +4198,7 @@
 		)
 		(uuid "af4c0227-f630-4bbd-a2d9-3fb12f39b595")
 	)
-	(hierarchical_label "CLKIN"
+	(hierarchical_label "C_SENSE_CLKIN"
 		(shape input)
 		(at 186.69 119.38 0)
 		(effects
@@ -4219,7 +4209,7 @@
 		)
 		(uuid "b113dd1b-8496-46c2-8166-6cd4dc3b8219")
 	)
-	(hierarchical_label "SPI_DOUT"
+	(hierarchical_label "SPI1_MISO"
 		(shape output)
 		(at 186.69 134.62 0)
 		(effects
@@ -4263,7 +4253,7 @@
 		)
 		(uuid "fecfa157-ec3a-493e-bec3-91827067728d")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "SP1_CS"
 		(shape input)
 		(at 186.69 124.46 0)
 		(effects
