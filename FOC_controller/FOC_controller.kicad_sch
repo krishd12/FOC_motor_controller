@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 180.34 86.36)
+		(at 199.39 100.33)
 		(size 17.78 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "076e6274-d47c-488e-8cd8-20f0b6c17675")
 		(property "Sheetname" "3-Phase Inverter"
-			(at 180.34 85.6484 0)
+			(at 199.39 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "3_phase_inverter.kicad_sch"
-			(at 180.34 116.1546 0)
+			(at 199.39 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +48,8 @@
 		)
 	)
 	(sheet
-		(at 138.43 50.8)
-		(size 27.94 43.18)
+		(at 162.56 93.98)
+		(size 26.67 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "2a74ef4e-9b5a-4589-b5e9-440f07c05f0f")
 		(property "Sheetname" "Motor driver"
-			(at 138.43 50.0884 0)
+			(at 162.56 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor_driver.kicad_sch"
-			(at 138.43 94.5646 0)
+			(at 162.56 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +90,49 @@
 		)
 	)
 	(sheet
-		(at 101.6 87.63)
+		(at 73.66 105.41)
+		(size 35.56 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d61785a-2327-4320-be99-c1155766be3c")
+		(property "Sheetname" "CAN + Magnetic Encoder"
+			(at 73.66 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_Magentic_Encoder.kicad_sch"
+			(at 73.66 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOC_controller"
+				(path "/eb39bb60-e016-4310-b4a2-3b3ed9adc75b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 49.53)
 		(size 27.94 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +148,7 @@
 		)
 		(uuid "eb65c562-cf2b-4665-b7fd-648ee7421ca1")
 		(property "Sheetname" "Power"
-			(at 101.6 86.9184 0)
+			(at 123.19 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 101.6 123.7746 0)
+			(at 123.19 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +174,7 @@
 		)
 	)
 	(sheet
-		(at 138.43 102.87)
+		(at 123.19 93.98)
 		(size 27.94 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +190,7 @@
 		)
 		(uuid "ed42fbd5-8438-4f21-b426-dd63e8ded1d7")
 		(property "Sheetname" "MCU"
-			(at 138.43 102.1584 0)
+			(at 123.19 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 138.43 147.9046 0)
+			(at 123.19 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)

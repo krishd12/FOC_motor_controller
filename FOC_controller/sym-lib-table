@@ -11,4 +11,6 @@
   (lib (name "DRV8320SRTVR (1)")(type "KiCad")(uri "${KIPRJMOD}/DRV8320SRTVR (1).kicad_sym")(options "")(descr ""))
   (lib (name "STM32F405RGT7TR")(type "KiCad")(uri "${KIPRJMOD}/STM32F405RGT7TR_KiCad/STM32F405RGT7TR_KiCad/STM32F405RGT7TR.kicad_sym")(options "")(descr ""))
   (lib (name "CSTNE8M00G550000R0")(type "KiCad")(uri "${KIPRJMOD}/CSTNE8M00G550000R0/CSTNE8M00G550000R0.kicad_sym")(options "")(descr ""))
+  (lib (name "AS5047P-ATSM")(type "KiCad")(uri "${KIPRJMOD}/AS5047P-ATSM/AS5047P-ATSM.kicad_sym")(options "")(descr ""))
+  (lib (name "SN65HVD230D")(type "KiCad")(uri "${KIPRJMOD}/SN65HVD230D/SN65HVD230D.kicad_sym")(options "")(descr ""))
 )

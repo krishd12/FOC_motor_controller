@@ -1888,7 +1888,7 @@
 	)
 	(text_box "C15 is DNP, and only required in the event of that the converter has large rippleor suffers from surge noise."
 		(exclude_from_sim no)
-		(at 237.49 107.95 0)
+		(at 235.712 107.696 0)
 		(size 26.67 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1999,6 +1999,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "721184a1-b65b-463d-99a5-f4a44096f590")
+	)
+	(junction
+		(at 162.56 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f9709c5-5477-487d-b2c8-c3bcacb509b9")
 	)
 	(junction
 		(at 73.66 130.81)
@@ -3494,6 +3500,73 @@
 			(project "FOC_controller"
 				(path "/eb39bb60-e016-4310-b4a2-3b3ed9adc75b/eb65c562-cf2b-4665-b7fd-648ee7421ca1"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "490ed1f0-8017-43ac-af65-64cd037e75c5")
+		(property "Reference" "TP12"
+			(at 167.894 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 167.64 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ef69b89-e61c-4d98-9e51-3576e3d31996")
+		)
+		(instances
+			(project ""
+				(path "/eb39bb60-e016-4310-b4a2-3b3ed9adc75b/eb65c562-cf2b-4665-b7fd-648ee7421ca1"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
