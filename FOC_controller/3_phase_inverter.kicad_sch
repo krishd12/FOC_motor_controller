@@ -2826,16 +2826,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 107.95) (xy 238.76 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18fab6c0-46db-4190-83f6-e90287daa44d")
-	)
-	(wire
-		(pts
 			(xy 209.55 26.67) (xy 209.55 29.21)
 		)
 		(stroke
@@ -2916,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 124.46) (xy 231.14 124.46)
+			(xy 204.47 124.46) (xy 229.87 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +3016,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 127) (xy 231.14 127)
+			(xy 212.09 127) (xy 229.87 127)
 		)
 		(stroke
 			(width 0)
@@ -3106,7 +3096,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 129.54) (xy 231.14 129.54)
+			(xy 219.71 129.54) (xy 229.87 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3446,7 +3436,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 134.62) (xy 231.14 134.62)
+			(xy 227.33 134.62) (xy 229.87 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4286,7 +4276,7 @@
 	)
 	(hierarchical_label "AMC_SCLK"
 		(shape input)
-		(at 231.14 127 0)
+		(at 229.87 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4327,17 +4317,6 @@
 			(justify right)
 		)
 		(uuid "18f642a3-68e4-4bae-86b3-b557fe1b02dd")
-	)
-	(hierarchical_label "+3V3_FUSED"
-		(shape input)
-		(at 238.76 109.22 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1cb6b225-6554-4079-857b-9efc46181008")
 	)
 	(hierarchical_label "SLB"
 		(shape output)
@@ -4429,7 +4408,7 @@
 	)
 	(hierarchical_label "AMC_MOSI"
 		(shape input)
-		(at 231.14 129.54 0)
+		(at 229.87 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4462,7 +4441,7 @@
 	)
 	(hierarchical_label "AMC_MISO"
 		(shape output)
-		(at 231.14 134.62 0)
+		(at 229.87 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4506,7 +4485,7 @@
 	)
 	(hierarchical_label "AMC_CS"
 		(shape input)
-		(at 231.14 124.46 0)
+		(at 229.87 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5074,7 +5053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_FUSED"
+		(property "Value" "+3V3"
 			(at 220.98 103.886 0)
 			(effects
 				(font
@@ -7151,71 +7130,6 @@
 			(project "FOC_controller"
 				(path "/eb39bb60-e016-4310-b4a2-3b3ed9adc75b/076e6274-d47c-488e-8cd8-20f0b6c17675"
 					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 238.76 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5f0e2d4-f812-4260-a107-c1f0d04936c0")
-		(property "Reference" "#PWR017"
-			(at 238.76 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_FUSED"
-			(at 238.76 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 238.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c254e8d-7d47-48fc-8b9a-0b3c63510a12")
-		)
-		(instances
-			(project "FOC_controller"
-				(path "/eb39bb60-e016-4310-b4a2-3b3ed9adc75b/076e6274-d47c-488e-8cd8-20f0b6c17675"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)

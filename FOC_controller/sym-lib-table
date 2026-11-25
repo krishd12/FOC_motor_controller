@@ -13,4 +13,6 @@
   (lib (name "CSTNE8M00G550000R0")(type "KiCad")(uri "${KIPRJMOD}/CSTNE8M00G550000R0/CSTNE8M00G550000R0.kicad_sym")(options "")(descr ""))
   (lib (name "AS5047P-ATSM")(type "KiCad")(uri "${KIPRJMOD}/AS5047P-ATSM/AS5047P-ATSM.kicad_sym")(options "")(descr ""))
   (lib (name "SN65HVD230D")(type "KiCad")(uri "${KIPRJMOD}/SN65HVD230D/SN65HVD230D.kicad_sym")(options "")(descr ""))
+  (lib (name "ISO7760FDWR")(type "KiCad")(uri "${KIPRJMOD}/ISO7760FDWR-KiCad/ISO7760FDWR.kicad_sym")(options "")(descr ""))
+  (lib (name "ISO7762DWR")(type "KiCad")(uri "${KIPRJMOD}/ISO7762DWR-KiCad/ISO7762DWR.kicad_sym")(options "")(descr ""))
 )
