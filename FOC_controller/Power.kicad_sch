@@ -2019,6 +2019,12 @@
 		(uuid "9d8e585b-993b-4d82-9c4a-348bff367b99")
 	)
 	(junction
+		(at 219.71 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a940ef0a-ff37-4e65-b096-f1dbe5cb841c")
+	)
+	(junction
 		(at 85.09 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2041,12 +2047,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5b72d99-9c47-46ee-ab0d-c0bb6d3014a5")
-	)
-	(junction
-		(at 210.82 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e55d651b-c083-46cd-90e0-aef0da775b38")
 	)
 	(junction
 		(at 120.65 109.22)
@@ -2144,16 +2144,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 132.08) (xy 212.09 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c1c0197-89e6-4bae-a6ea-c09ddf3483c8")
-	)
-	(wire
-		(pts
 			(xy 142.24 69.85) (xy 144.78 69.85)
 		)
 		(stroke
@@ -2194,7 +2184,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 132.08) (xy 210.82 132.08)
+			(xy 205.74 132.08) (xy 209.55 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2221,6 +2211,16 @@
 			(type default)
 		)
 		(uuid "2dbccd69-e066-4324-b5df-6445f09c2c5b")
+	)
+	(wire
+		(pts
+			(xy 219.71 132.08) (xy 223.52 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f63f78f-1065-4c50-9479-000ba58cacb3")
 	)
 	(wire
 		(pts
@@ -2324,6 +2324,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 132.08) (xy 219.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613da733-c6df-4d0d-9590-312d3a884c4e")
+	)
+	(wire
+		(pts
 			(xy 39.37 109.22) (xy 39.37 113.03)
 		)
 		(stroke
@@ -2391,16 +2401,6 @@
 			(type default)
 		)
 		(uuid "6c4084da-f800-44da-9de5-5a2f63597846")
-	)
-	(wire
-		(pts
-			(xy 223.52 132.08) (xy 219.71 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d0e9071-d288-4733-a301-5d9b580fb60d")
 	)
 	(wire
 		(pts
@@ -3295,7 +3295,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 210.82 132.08 180)
+		(at 219.71 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3303,7 +3303,7 @@
 		(dnp no)
 		(uuid "40f75d95-dd0d-4d95-a8d1-82eea65b08b8")
 		(property "Reference" "TP1"
-			(at 212.598 137.668 0)
+			(at 221.488 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,7 +3312,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 209.5501 137.16 90)
+			(at 218.4401 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 132.08 0)
+			(at 214.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 132.08 0)
+			(at 214.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3340,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 210.82 132.08 0)
+			(at 219.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5092,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 215.9 132.08 90)
+		(at 213.36 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5100,7 +5100,7 @@
 		(dnp no)
 		(uuid "f328f250-fcd1-419e-9920-59629f00e6d1")
 		(property "Reference" "F3"
-			(at 214.63 130.048 90)
+			(at 212.09 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,8 +5108,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A?"
-			(at 215.138 134.112 90)
+		(property "Value" "400mA"
+			(at 210.058 134.112 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 133.858 90)
+			(at 213.36 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5127,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 132.08 0)
+			(at 213.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +5136,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 215.9 132.08 0)
+			(at 213.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)

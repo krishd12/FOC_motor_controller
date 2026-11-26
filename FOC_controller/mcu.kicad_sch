@@ -5375,7 +5375,7 @@
 		)
 		(uuid "0b2ddefd-c5b9-473c-a158-986c2a564b59")
 	)
-	(hierarchical_label "INHB"
+	(hierarchical_label "INHB_ISO"
 		(shape output)
 		(at 157.48 40.64 0)
 		(effects
@@ -5386,7 +5386,7 @@
 		)
 		(uuid "0e5d6623-b608-4390-9917-0696871bf481")
 	)
-	(hierarchical_label "DRV_CS"
+	(hierarchical_label "DRV_CS_ISO"
 		(shape output)
 		(at 157.48 71.12 0)
 		(effects
@@ -5419,7 +5419,7 @@
 		)
 		(uuid "1401fb0e-a99a-43d7-b643-0a3a1df51e25")
 	)
-	(hierarchical_label "DRV_ENABLE"
+	(hierarchical_label "DRV_ENABLE_ISO"
 		(shape output)
 		(at 110.49 104.14 180)
 		(effects
@@ -5441,7 +5441,7 @@
 		)
 		(uuid "34033285-299c-4f48-84b9-3770556c06ef")
 	)
-	(hierarchical_label "INLB"
+	(hierarchical_label "INLB_ISO"
 		(shape output)
 		(at 157.48 43.18 0)
 		(effects
@@ -5452,7 +5452,7 @@
 		)
 		(uuid "3442afab-24b2-4b86-98d4-9536efb3d504")
 	)
-	(hierarchical_label "INHA"
+	(hierarchical_label "INHA_ISO"
 		(shape output)
 		(at 157.48 48.26 0)
 		(effects
@@ -5496,7 +5496,7 @@
 		)
 		(uuid "702c1403-6c1d-498f-8e70-5bd5c0223056")
 	)
-	(hierarchical_label "INLA"
+	(hierarchical_label "INLA_ISO"
 		(shape output)
 		(at 113.03 78.74 180)
 		(effects
@@ -5518,7 +5518,7 @@
 		)
 		(uuid "904c690b-a180-4b70-a611-81104329fb1d")
 	)
-	(hierarchical_label "INLC"
+	(hierarchical_label "INLC_ISO"
 		(shape output)
 		(at 157.48 68.58 0)
 		(effects
@@ -5573,7 +5573,7 @@
 		)
 		(uuid "b4f30bbc-59df-4c16-976f-4e4ab9891f11")
 	)
-	(hierarchical_label "INHC"
+	(hierarchical_label "INHC_ISO"
 		(shape output)
 		(at 157.48 66.04 0)
 		(effects
@@ -5584,7 +5584,7 @@
 		)
 		(uuid "be23412e-16d3-4ac8-92bb-337218d715da")
 	)
-	(hierarchical_label "DRV_FAULT"
+	(hierarchical_label "DRV_FAULT_ISO"
 		(shape output)
 		(at 110.49 63.5 180)
 		(effects
@@ -5595,7 +5595,7 @@
 		)
 		(uuid "bf72eeac-2e64-4b5c-9e44-a32c0df48509")
 	)
-	(hierarchical_label "DRV_MISO"
+	(hierarchical_label "DRV_MISO_ISO"
 		(shape output)
 		(at 157.48 76.2 0)
 		(effects
@@ -5617,7 +5617,7 @@
 		)
 		(uuid "e6691aaf-5b16-49e0-86e4-c88985d29853")
 	)
-	(hierarchical_label "DRV_SCLK"
+	(hierarchical_label "DRV_SCLK_ISO"
 		(shape output)
 		(at 157.48 73.66 0)
 		(effects
@@ -5628,7 +5628,7 @@
 		)
 		(uuid "efb7d208-c254-4259-9887-5a908b0611b8")
 	)
-	(hierarchical_label "DRV_MOSI"
+	(hierarchical_label "DRV_MOSI_ISO"
 		(shape output)
 		(at 157.48 78.74 0)
 		(effects
